@@ -108,7 +108,7 @@ section {
     .sidebar nav {
         display: flex;
         flex-direction: row;
-        gap: 20px;
+        gap: 10px;
     }
     main {
         margin-left: 0;

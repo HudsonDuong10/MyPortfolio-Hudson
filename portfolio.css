@@ -103,6 +103,7 @@ section {
         width: 100%;
         height: auto;
         margin-bottom: 0px;
+        align-items: center;
     }
     .sidebar nav {
         display: flex;

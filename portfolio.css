@@ -95,7 +95,9 @@ section {
 }
 
 @media screen and (max-width: 932px){
-    
+    body {
+        text-align: center;
+    }
     .sidebar {
         position: relative;
         display: flex;

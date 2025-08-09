@@ -1,8 +1,9 @@
+
 * {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: 'Segoe UI', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.6;
 }
 .body {
@@ -32,6 +33,7 @@ a {
 .sidebar nav a {
     color: white;
     margin: 15px 0;
+    display: none;
 }
 
 main {
@@ -51,6 +53,7 @@ section {
 #about p {
     max-width: 100%;
     color: black;
+    font-size: 1.2em;
 }
 
 #projects h1 {
@@ -111,6 +114,9 @@ section {
         display: flex;
         flex-direction: row;
         gap: 10px;
+    }
+    .sidebar nav a {
+        display: contents;
     }
     main {
         margin-left: 0;
